@@ -1,0 +1,25 @@
+Activar la líneas 462 de /Applications/mampstack-7.0.3-0/php/etc/php.ini
+462: display_errors = On
+473: display_startup_errors = On
+517: track_errors = On
+1733: opcache.enable = 0
+
+
+Archivo de configuración de virtualhost con Bitnami:
+/Applications/mampstack-7.0.3-0/apache2/conf/bitnami/bitnami-apps-vhosts.conf
+
+<VirtualHost *:8080>
+
+    DocumentRoot "/Users/daniel/Gitlab/curso_php/clase9/public"
+    ServerName cursophp.dev
+
+    <Directory /Users/daniel/Gitlab/curso_php/clase9/public>
+        Options FollowSymlinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog "/Users/daniel/Gitlab/curso_php/clase9/error_log"
+    CustomLog "/Users/daniel/Gitlab/curso_php/clase9/access_log" common
+
+</VirtualHost>

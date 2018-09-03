@@ -1,0 +1,19 @@
+{
+    "name": "joseluis/practica",
+    "description": "Practica con composer",
+    "authors": [
+        {
+            "name": "omegaxl1",
+            "email": "josepullaguarixl1@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0.0",
+        "illuminate/database": "5.2.21"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}

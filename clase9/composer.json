@@ -1,0 +1,19 @@
+{
+    "name": "danielromeroauk/curso-php",
+    "description": "Clase 9 del curso PHP desde cero en Escuela Digital",
+    "authors": [
+        {
+            "name": "Daniel Guillermo Romero Gelvez",
+            "email": "danielromeroauk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/database": "5.2.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
