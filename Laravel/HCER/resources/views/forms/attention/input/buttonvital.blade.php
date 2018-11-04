@@ -1,0 +1,1 @@
+     <button class="btn btn-primary">Registar Signos Vitales</button>

@@ -1,0 +1,1 @@
+ <button class="btn btn-primary">Actualizar El Diagnóstico</button>
