@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="text1">Escribe tu nombre de usuario</string>
+    <string name="text2">Escribe tu contraseña</string>
+    <string name="Btn1">Olvide mis datos</string>
+    <string name="Btn2">Iniciar seccion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

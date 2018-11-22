@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Planetas</string>
+    <string name="venus">Planeta Venus</string>
+    <string name="Inicio">Inicio</string>
+
+    <string-array name="Lienzo">
+        <item>Circulo</item>
+        <item>Ovalo</item>
+        <item>Cuadrado</item>
+        <item>Rectagulo</item>
+        <item>Libre</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="text1">Escribe tu nombre de usuario</string>
+    <string name="text2">Escribe tu contraseña</string>
+    <string name="Btn1">Olvide mis datos</string>
+    <string name="Btn2">Inicio de sesión</string>
+    <string name="Nom">Jose Pullaguari</string>
+    <string name="cab"> gestor de diseños</string>
+
+
+
+</resources>

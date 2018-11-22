@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nom"
+        android:textColor="#0936ff"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:background="@drawable/fot3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/appwidget_text"
+        android:layout_toStartOf="@+id/appwidget_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cab"
+        android:id="@+id/textView"
+        style="@style/Base.ThemeOverlay.AppCompat"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:autoText="false"
+        android:textColor="#1095ee"
+        android:textSize="25dp" />
+
+</RelativeLayout>

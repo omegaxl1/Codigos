@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string-array name="Lienzo">
+        <item>Circulo</item>
+        <item>Ovalo</item>
+        <item>Cuadrado</item>
+        <item>Rectagulo</item>
+        <item>Libre</item>
+    </string-array>
+
+    <string-array name="Carect">
+        <item>este es un circulo</item>
+        <item>esta es figura Ovalar</item>
+        <item>esta es figura Cuadrada</item>
+        <item>esta es figura Recgular</item>
+        <item>dibujo libre</item>
+    </string-array>
+</resources>
