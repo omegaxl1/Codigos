@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PantllasDinamicas</string>
+    <string-array name="categorias">
+        <item>Principales</item>
+        <item>Tecnología</item>
+        <item>Deportes</item>
+    </string-array>
+</resources>

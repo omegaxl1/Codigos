@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGray">#DFDFDF</color>
+
+
+
+    <color name="bg_header">#E91E63</color>
+
+    <!-- Rojos -->
+    <color name="redPrimary">#D32F2F</color>
+    <color name="redPrimaryDark">#b71c1c</color>
+
+    <!-- Rosados -->
+    <color name="pinkPrimary">#C2185B</color>
+    <color name="pinkPrimaryDark">#AD1457</color>
+
+    <!-- Morados -->
+    <color name="purplePrimary">#512DA8</color>
+    <color name="purplePrimaryDark">#4527A0</color>
+
+    <!-- Celereste -->
+    <color name="azulPrimary">#05e3fc</color>
+    <color name="azulPrimaryDark">#07c8f4</color>
+
+
+
+    <!-- Celereste -->
+    <color name="negroPrimary">#e1e0e6</color>
+    <color name="negroPrimaryDark">#f0eff4</color>
+</resources>

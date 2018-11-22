@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.omegazero.temas.MainActivity">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contenedor1"
+        android:orientation="vertical">
+        <EditText
+            style="@style/numeros"
+            android:id="@+id/PrimerNumero"
+            android:hint="Primer número"/>
+
+        <EditText
+            style="@style/numeros"
+            android:id="@+id/SegundoNumero"
+            android:hint="Segundo número"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Sumar"
+            android:id="@+id/sumar"
+            android:theme="@style/ButtonTheme"
+            style="@style/Botones"
+            android:onClick="sumar"
+            android:drawableLeft="@drawable/suma"
+            android:drawableTint="@android:color/white"
+            />
+
+        <Button
+            android:drawableLeft="@drawable/resta1"
+            android:drawableTint="@android:color/white"
+            android:theme="@style/ButtonTheme"
+            android:text="Restar"
+            android:id="@+id/restar"
+            style="@style/Botones"
+            android:onClick="restar"/>
+
+
+        <Button
+            android:drawableTint="@android:color/white"
+            android:drawableLeft="@drawable/multiplicacion"
+            android:theme="@style/ButtonTheme"
+            android:text="Producto"
+            android:id="@+id/button"
+            style="@style/Botones"
+            android:onClick="multiplicar"/>
+
+        <Button
+            android:theme="@style/ButtonTheme"
+            style="@style/Botones"
+            android:text="/ Cociente"
+            android:id="@+id/dividir"
+            android:onClick="dividir"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:text="Resultado"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

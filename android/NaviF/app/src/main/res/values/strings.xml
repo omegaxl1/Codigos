@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NaviF</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Bienvenido a la lección donde aprenderemos a realizar un Navigation Drawer.</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+
+    <string name="nav_drawer_open">Abrir cajón</string>
+    <string name="nav_drawer_close">Cerrar cajón</string>
+    <string name="seccion1">Sección 1</string>
+    <string name="seccion2">Sección 2</string>
+    <string name="seccion3">Sección 3</string>
+    <string name="mas_opciones">Más opciones</string>
+    <string name="opcion1">Opción 1</string>
+    <string name="opcion2">Opción 2</string>
+    <string name="opcion3">Opción 3</string>
+    <string name="seccion4">Sección 4</string>
+    <string name="seccion5">Sección 5</string>
+
+
+</resources>

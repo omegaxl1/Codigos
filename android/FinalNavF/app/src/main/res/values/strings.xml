@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Redes Sociales</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome">BIENVENIDO A LA TIENDA MULTIMEDIA DE NEXT UNIVERSITY</string>
+    <string name="description">En esta tienda encontrarás música en varios géneros, vídeos, igualmente libros de diferentes géneros y películas.</string>
+    <string name="next_university">Next University</string>
+
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="home">Inicio</string>
+    <string name="video_description">El video o vídeo es la tecnología de la grabación, procesamiento, almacenamiento, transmisión de imágenes y reconstrucción por medios electrónicos digitales o analógicos de una secuencia de imágenes que representan escenas en movimiento.</string>
+    <string name="Fac">Facebok</string>
+    <string name="google">Google Puls</string>
+    <string name="Ins">Instagram</string>
+    <string name="Tw">Twitter</string>
+    <string name="Nom">Jose Pullaguari</string>
+    <string name="correo">jose@gmail.com</string>
+    <string name="Principal">Princuipal</string>
+</resources>
