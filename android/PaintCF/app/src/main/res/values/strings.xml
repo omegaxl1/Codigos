@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Figuras Geometricas</string>
+    <string name="li1">Circulo</string>
+    <string name="Cir">este  es para hacer figuras circulares</string>
+    <string name="Cuad">este  es para hacer figuras Cuadradas</string>
+    <string name="Rec">este  es para hacer figuras Rectagulares</string>
+    <string name="Ova">este  es para hacer figuras Ovalares</string>
+    <string name="Lib">este  es para hacer figuras Libres</string>
+
+    <string-array name="Lienzo">
+        <item>Circulo</item>
+        <item>Ovalo</item>
+        <item>Cuadrado</item>
+        <item>Rectagulo</item>
+        <item>Libre</item>
+    </string-array>
+    <string-array name="Carect">
+        <item>este es un circulo</item>
+        <item>esta es figura Ovalar</item>
+        <item>esta es figura Cuadrada</item>
+        <item>esta es figura Recgular</item>
+        <item>dibujo libre</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

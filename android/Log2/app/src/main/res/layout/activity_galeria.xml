@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.omegazero.log2.Galeria"
+    android:background="#f71313">
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="178dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/fot2"
+        android:layout_weight="0.41" />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="145dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/fot1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/fot3"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:id="@+id/imageView5"
+        android:background="@drawable/fot3"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="145dp"
+        android:id="@+id/imageView6"
+        android:background="@drawable/fot1"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="178dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/fot2"
+        android:layout_weight="0.41"
+        android:layout_below="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+</RelativeLayout>
