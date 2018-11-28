@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sistema.Datos;
 using Sistema.Entidades.Almacen;
+using Sistema.Web.Models.Almacen.Categoria;
 
 namespace Sistema.Web.Controllers
 {
@@ -22,10 +23,20 @@ namespace Sistema.Web.Controllers
         }
 
         // GET: api/Categorias
-        [HttpGet]
-        public IEnumerable<Categoria> GetCategorias()
+        [HttpGet("[action]")]
+        public async Task <IEnumerable<CategoriaViewModel>>Listar()
         {
-            return _context.Categorias;
+            var categoria = await _context.Categorias.ToListAsync();
+
+            return categoria.Select(c => new CategoriaViewModel
+
+            {
+                idcategoria = c.idcategoria,
+                nombre = c.nombre,
+                descripcion = c.descripcion,
+     
+
+            });
         }
 
         // GET: api/Categorias/5
