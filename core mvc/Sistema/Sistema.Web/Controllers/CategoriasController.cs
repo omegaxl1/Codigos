@@ -33,8 +33,9 @@ namespace Sistema.Web.Controllers
             {
                 idcategoria = c.idcategoria,
                 nombre = c.nombre,
-                descripcion = c.descripcion
-     
+                descripcion = c.descripcion,
+                condicion = c.condicion
+
 
             });
         }
@@ -57,7 +58,7 @@ namespace Sistema.Web.Controllers
                 nombre = categoria.nombre,
                 descripcion = categoria.descripcion,
                 condicion = categoria.condicion
-
+               
             });
         }
 
@@ -118,7 +119,8 @@ namespace Sistema.Web.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 return BadRequest();
             }
             return Ok();
