@@ -9,3 +9,5 @@ condicion BIT DEFAULT(1)
 INSERT INTO categoria (nombre, descripcion) VALUES ('item1','');
 
 
+
+"Conexion": "data source=.\\SQLEXPRESS;initial catalog=dbsistema;user id=usuario;password=11231321321;persist security info=True;"
