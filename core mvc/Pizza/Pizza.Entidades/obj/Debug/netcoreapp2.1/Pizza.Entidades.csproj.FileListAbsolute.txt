@@ -1,0 +1,9 @@
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\bin\Debug\netcoreapp2.1\Pizza.Entidades.deps.json
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\bin\Debug\netcoreapp2.1\Pizza.Entidades.dll
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\bin\Debug\netcoreapp2.1\Pizza.Entidades.pdb
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.csprojAssemblyReference.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.csproj.CoreCompileInputs.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.AssemblyInfoInputs.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.AssemblyInfo.cs
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.dll
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Entidades\obj\Debug\netcoreapp2.1\Pizza.Entidades.pdb

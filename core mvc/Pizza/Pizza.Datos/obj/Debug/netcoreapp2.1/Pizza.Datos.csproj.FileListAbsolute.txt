@@ -1,0 +1,14 @@
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Datos.deps.json
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Datos.dll
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.csprojAssemblyReference.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.csproj.CoreCompileInputs.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.AssemblyInfoInputs.cache
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.AssemblyInfo.cs
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Entidades.dll
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Datos.runtimeconfig.json
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Datos.runtimeconfig.dev.json
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Datos.pdb
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\bin\Debug\netcoreapp2.1\Pizza.Entidades.pdb
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.csproj.CopyComplete
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.dll
+D:\dow\curso\core\Pizza\core\Pizza\Pizza.Datos\obj\Debug\netcoreapp2.1\Pizza.Datos.pdb
