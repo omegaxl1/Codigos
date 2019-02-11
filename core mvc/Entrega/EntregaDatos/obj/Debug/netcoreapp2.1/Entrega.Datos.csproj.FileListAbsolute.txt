@@ -1,0 +1,14 @@
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Datos.deps.json
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Datos.dll
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.csprojAssemblyReference.cache
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.csproj.CoreCompileInputs.cache
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.AssemblyInfoInputs.cache
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.AssemblyInfo.cs
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Datos.runtimeconfig.json
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Datos.runtimeconfig.dev.json
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Datos.pdb
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Entidades.dll
+D:\CODIGOS\core\Entrega\EntregaDatos\bin\Debug\netcoreapp2.1\Entrega.Entidades.pdb
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.csproj.CopyComplete
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.dll
+D:\CODIGOS\core\Entrega\EntregaDatos\obj\Debug\netcoreapp2.1\Entrega.Datos.pdb

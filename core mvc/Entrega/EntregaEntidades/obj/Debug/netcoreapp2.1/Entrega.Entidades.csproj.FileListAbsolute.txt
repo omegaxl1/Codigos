@@ -1,0 +1,9 @@
+D:\CODIGOS\core\Entrega\EntregaEntidades\bin\Debug\netcoreapp2.1\Entrega.Entidades.deps.json
+D:\CODIGOS\core\Entrega\EntregaEntidades\bin\Debug\netcoreapp2.1\Entrega.Entidades.dll
+D:\CODIGOS\core\Entrega\EntregaEntidades\bin\Debug\netcoreapp2.1\Entrega.Entidades.pdb
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.csprojAssemblyReference.cache
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.csproj.CoreCompileInputs.cache
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.AssemblyInfoInputs.cache
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.AssemblyInfo.cs
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.dll
+D:\CODIGOS\core\Entrega\EntregaEntidades\obj\Debug\netcoreapp2.1\Entrega.Entidades.pdb
