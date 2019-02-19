@@ -28,6 +28,30 @@ namespace Entrega.Web.Controllers
             _context = context;
             _config = config;
         }
+        // GET: api/Usuarios/VerUsuarios
+        /*   [HttpGet("[action]")]
+         public async Task<IEnumerable<UsuarioViewModel>> VerUsuarios()
+         {
+
+
+                         var consulta = await _context.Ventas
+                         .GroupBy(v => v.fecha_hora.Month)
+                         .Select(x => new { etiqueta = x.Key, valor = x.Sum(v => v.total) })
+                         .OrderByDescending(x => x.etiqueta)
+                         .Take(12)
+                         .ToListAsync();
+
+                         return consulta.Select(v => new ConsultaViewModel
+                         {
+                             etiqueta = v.etiqueta.ToString(),
+                             valor = v.valor
+                         });
+
+           
+
+    }  */
+
+
 
         // GET: api/Usuarios/Listar
         /*[Authorize(Roles = "Administrador")]*/
