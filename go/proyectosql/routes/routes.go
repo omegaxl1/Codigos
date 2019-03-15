@@ -6,6 +6,6 @@ import "github.com/gorilla/mux"
 func InitRoutes() *mux.Router {
 	router := mux.NewRouter().StrictSlash(false)
 	SetCis10Router(router)
-
+	SetPublicRouter(router)
 	return router
 }
