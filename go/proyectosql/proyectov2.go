@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
@@ -11,6 +12,9 @@ import (
 )
 
 func main() {
+
+	flag.IntVar(&commons.Port, "port", 8080, "Puerto para el servidor web")
+	flag.Parse()
 	// Inicia las rutas
 	router := routes.InitRoutes()
 

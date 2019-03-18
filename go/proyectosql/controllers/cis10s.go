@@ -3,6 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"net/http"
+	"strconv"
+
+	"time"
 
 	"github.com/proyectosql/commons"
 	"github.com/proyectosql/configuration"
@@ -16,7 +19,16 @@ func Cis10sGetAll(w http.ResponseWriter, r *http.Request) {
 	db := configuration.GetConnection()
 	defer db.Close()
 
-	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip")
+	//int hora = now.hour();
+	t := time.Now()
+
+	fecha := strconv.Itoa(t.Hour())
+
+	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip").Where("id= 1")
+	if fecha == "08" || fecha == "09" || fecha == "15" {
+
+		Ccis10 = db.Table("cis10s").Select("id,cod_4,descrip")
+	}
 
 	Ccis10.Find(&cis10)
 	j, err := json.Marshal(cis10)
@@ -33,7 +45,7 @@ func Cis10sGetAll(w http.ResponseWriter, r *http.Request) {
 		w.Write(j)
 	} else {
 		m.Code = http.StatusNoContent
-		m.Message = "No se encontraron comentrarios"
+		m.Message = "No se encontraron registros"
 		commons.DisplayMessage(w, m)
 	}
 
