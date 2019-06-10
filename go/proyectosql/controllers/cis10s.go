@@ -5,9 +5,6 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"strconv"
-
-	"time"
 
 	"github.com/proyectosql/commons"
 	"github.com/proyectosql/configuration"
@@ -17,23 +14,26 @@ import (
 // Cis10sGetAll obtiene todos los comentarios
 func Cis10sGetAll(w http.ResponseWriter, r *http.Request) {
 	cis10 := []models.Cis10s{}
+
+	cis103 := models.Cis101s{}
+	cisprueba := make([]*models.Cis101s, 0, 0)
 	m := models.Message{}
 	db := configuration.GetConnection()
 	defer db.Close()
+	/*consulta 1*/
+	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip").Where(" descrip LIKE '%B'").Limit(10)
+	Ccis10.Find(&cis10)
 
-	//int hora = now.hour();
-	t := time.Now()
-
-	fecha := strconv.Itoa(t.Hour())
-
-	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip").Where("id= 1")
-	if fecha == "8" || fecha == "9" || fecha == "15" {
-
-		Ccis10 = db.Table("cis10s").Select("id,cod_4,descrip")
+	for _, x := range cis10 {
+		log.Println("ID =>", x.Id)
+		/*consulat2*/
+		Ccis10 := db.Table("cis10s").Select("descrip").Where(" id = ?", x.Id)
+		Ccis10.First(&cis103)
+		cisprueba = append(cisprueba, &cis103)
 	}
 
-	Ccis10.Find(&cis10)
-	j, err := json.Marshal(cis10)
+	Ccis10.Find(&cisprueba)
+	j, err := json.Marshal(cisprueba)
 	if err != nil {
 		m.Code = http.StatusInternalServerError
 		m.Message = "Error al convertir los comentarios en json"
@@ -41,7 +41,7 @@ func Cis10sGetAll(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if len(cis10) > 0 {
+	if len(cisprueba) > 0 {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
 		w.Header().Set("Access-Control-Allow-Methods", "GET")
 		w.Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization")
@@ -73,6 +73,13 @@ func Cis10sPost(w http.ResponseWriter, r *http.Request) {
 	defer db.Close()
 
 	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip").Where("cod_4=?", cis10.Cod_4).Find(&currentcis10)
+
+	/*
+		for _, x := range cis10 {
+			log.Println("ID =>", x.Id)
+			log.Println("Campo1 =>", x.Campo1)
+		}
+	*/
 
 	Ccis10.Find(&cis10)
 	j, err := json.Marshal(cis10)
