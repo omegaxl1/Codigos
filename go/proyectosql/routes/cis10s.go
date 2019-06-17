@@ -13,7 +13,7 @@ func SetCis10Router(router *mux.Router) {
 	//Cis10sPost
 	subRouter := mux.NewRouter().PathPrefix(prefix).Subrouter().StrictSlash(true)
 	subRouter.HandleFunc("/", controllers.Cis10sPost).Methods("POST")
-	subRouter.HandleFunc("/", controllers.Cis10sPostV1).Methods("GET")
+	subRouter.HandleFunc("/", controllers.Cis10sGetAll).Methods("GET")
 
 	router.PathPrefix(prefix).Handler(
 		negroni.New(

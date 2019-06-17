@@ -21,13 +21,13 @@ func Cis10sGetAll(w http.ResponseWriter, r *http.Request) {
 	db := configuration.GetConnection()
 	defer db.Close()
 	/*consulta 1*/
-	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip").Where(" descrip LIKE '%B'").Limit(10)
+	Ccis10 := db.Table("cis10s").Select("id,cod_4,descrip,created_at").Where(" descrip LIKE '%B'").Limit(10)
 	Ccis10.Find(&cis10)
 
 	for _, x := range cis10 {
 		log.Println("ID =>", x.Id)
 		/*consulat2*/
-		Ccis10 := db.Table("cis10s").Select("descrip").Where(" id = ?", x.Id)
+		Ccis10 := db.Table("cis10s").Select("descrip,created_at").Where(" id = ?", x.Id)
 		Ccis10.First(&cis103)
 		cisprueba = append(cisprueba, &cis103)
 	}
