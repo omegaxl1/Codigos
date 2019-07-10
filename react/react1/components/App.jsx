@@ -10,7 +10,7 @@ const App = () => (
     
     <Switch>
 
-      <Route path="/" component={ Users } />  
+      <Route path="/" exact component={ Users } />  
 
       <Route component={() => (
         <div className="ed-grid">

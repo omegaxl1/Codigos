@@ -8,7 +8,7 @@ const UserCard = ({ name, username, email }) => (
                 { username }
             </div>
             <div className="s-main-center">
-                <a className="button--ghost-alert button--tiny" href="https://ed.team">{ `${email}`} </a>
+                <a className="button--ghost-alert button--tiny" href="https://x-com">{ `${email}`} </a>
             </div>
         </div>
     </article>
