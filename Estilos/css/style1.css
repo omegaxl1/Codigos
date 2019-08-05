@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+    font-size:  2.5em;
+}
+
+.container::before,
+.container::after {
+    content: "";
+    display: block;
+    height: 5px;
+    /*flex para ajustar a la pantalla*/
+    flex: 1;
+    background: linear-gradient(to left, yellow, green);
+    margin-right: .5em;
+}
+.container::after {
+    background:  linear-gradient(to right,black,blue);
+    margin-right:  0;
+    margin-right:  .5em;
+}
+
+.container1{
+    display: flex;
+    font-size: 3em;
+    background: red;
+  
+}
+
+.item{
+    background: pink;
+    /*expandir en toda la pagina disponible*/
+    flex-grow: 10;
+}
+.item:nth-child(event){
+    background: cyan;
+}
+
+.page{
+    display: flex;
+    height: 100vh;
+    background: red;
+}
+
+.aside{
+    width:  200px;
+    background: red;
+}
+.main{
+    background: green;
+    flex:1;
+}
+
+.container3{
+    display: flex;
+    font-size: 1.5em;
+    background: red;
+    height: 300px;
+    flex-wrap: wrap;
+  
+  
+}
+
+.item3{
+    background: rgb(108, 12, 233);
+    width: 300px;
+    /*tener el mismo tamaño*/
+    /* flex: 1;*/
+     height: 100px;
+
+}
+.item3:nth-child(event){
+    background: cyan;
+    align-self: flex-start;
+  
+}
