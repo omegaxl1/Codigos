@@ -18,7 +18,7 @@ class UserController extends Controller
     public function index()
     {
         $roles = Role::all();
-        $users = User::withTrashed()->paginate(2);
+        $users = User::withTrashed()->paginate(5);
         $action = route('users.create');
 
         return view('users.create')->with(compact('roles','users','action'));
@@ -87,7 +87,14 @@ class UserController extends Controller
      */
     public function edit($id)
     {
-        //
+        $action = route('user.update',['id'=> $id]);
+        $roles = Role::all();
+        $useredit =  User::find($id);
+        //User::where('id',$id)->first();
+        $users = User::withTrashed()->paginate(5);
+      return view('users.edit')->with(compact('roles','users','useredit','action'));
+
+
     }
 
     /**
@@ -99,7 +106,16 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        list($rules ,$messages) = $this->_rulesUp();
+        $this->validate($request,$rules,$messages);
+        $user = User::find($id);
+       $user->name =$request->input('name');
+       $user->email = $request->input('email');
+       $user->id_role = $request->input('id_rol');
+
+       $user->save();
+        return redirect()->route('users.view');
+       // return redirect()->route('user.update');
     }
 
     /**
@@ -129,6 +145,29 @@ class UserController extends Controller
         $rules =[
             'name'=>'required|min:5',
             'email'=>'required|email|unique:users,email',
+            'password'=>'required|min:6',
+            'id_rol'=>'exists:roles,id',
+        ];
+
+        return array($rules,$messages);
+    }
+
+
+    private function _rulesUp(){
+        $messages =[
+            'name.required' =>'El nombre es requerido',
+            'name.min'=>'El nombre debe tener minimo de 5 caractes',
+            'email.exists'=>'El email no es valido',
+            'email.email'=>'Ingrese un email valido',
+
+            'password.required'=>'Ingrese una contraseña',
+            'password.min'=>'Ingrese mas de 6 caracteres',
+            'id_rol.exists'=>'Seleccione un rol valido'
+
+        ];
+        $rules =[
+            'name'=>'required|min:5',
+            'email'=>'required|exists:users,email',
             'password'=>'required|min:6',
             'id_rol'=>'exists:roles,id',
         ];

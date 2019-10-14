@@ -25,4 +25,9 @@ Route::get('/user/view','User\UserController@index')->name('users.view');
 
 Route::post('/user/insert','User\UserController@create')->name('users.create');
 
+Route::get('/user/seach/{id}','User\UserController@edit')->name('users.edit');
+
+Route::post('/user/update/{id}', 'User\UserController@update')->name('user.update');
+
+
 

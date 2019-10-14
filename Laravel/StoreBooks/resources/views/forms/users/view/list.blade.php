@@ -18,7 +18,9 @@
 
             <td>
 
-
+                <a href="{{url('/user/seach')}}/{{ $user->id }}"  title="Editar">
+                    <span class="glyphicon glyphicon-pencil">Editar</span>
+                </a>
 
             </td>
         </tr>
