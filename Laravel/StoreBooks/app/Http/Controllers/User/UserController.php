@@ -10,6 +10,26 @@ use Carbon\Carbon;
 
 class UserController extends Controller
 {
+
+
+
+  /*  public function __construct(TareasRepository $tareas){
+        $this->tareas = $tareas;
+    }
+    public function index(){
+
+      // var_dump($tareas);
+     $tareas = $this->tareas->porPrioridades(1,1);
+
+     foreach ($tareas as $tarea){
+        //echo "<p>".$tarea->titulo." ".$tarea->prioridad."</p>";
+        $tarea->titulo;
+        $tarea->proridad['prioridad'];
+     }
+
+    }*/
+
+
     /**
      * Display a listing of the resource.
      *
